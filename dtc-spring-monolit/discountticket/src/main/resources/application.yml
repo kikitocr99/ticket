@@ -1,0 +1,11 @@
+server:
+  port: 8086
+Spring:
+  jpa:
+    show-sql: true
+  thymeleaf:
+    cache: false
+
+kafka:
+  topic:
+    boot: mm.test

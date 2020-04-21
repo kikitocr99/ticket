@@ -1,0 +1,7 @@
+spring:
+  flyway:
+    url: jdbc:h2:~/ticket;DB_CLOSE_ON_EXIT=FALSE
+    user: test
+    password: test
+   # ignore-missing-migrations: true
+    #clean-on-validation-error: true
